@@ -1,0 +1,94 @@
+<!DOCTYPE html><html lang='en'>
+<html><head>
+<title>not needed</title>
+<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<header>
+    <div class="nav-bar">
+        <div class="main-logo">
+            <div class="nav-logo border">
+                <a id="click-logo" href="index.php">
+                    <div class="logo"></div>
+                </a>
+            </div>
+            <div class="logo-name">
+                <a id="click-logo" href="index.php">
+                    <p>Library PICT, Pune</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="space">
+            <div class="nav-about">
+                <a href="aboutUs.php">About Us</a>
+                <div class="underline"></div>
+            </div>
+            <div class="nav-E-resources">
+                <a href="e-resources.php">E-Resources</a>
+            </div>
+            <div class="nav-library-service">
+                <a href="services.php">Library Services</a>
+            </div>
+            <div class="select-menu">
+                <div class="select-btn">
+                    <div class="section-name">
+                        <span class="sBtn-text">Books Section</span>
+                    </div>
+
+                    <div class="drop-down">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+
+                <ul class="options">
+                    <li class="option">
+                        <a href="books-section.php"><span class="option-text">Books Section</span></a>
+                    </li>
+                    <li class="option"><form id="y" method='post' action='books-section.php'><input type='hidden' name='search' value='math'>
+                        <a href="javascript:{}" onclick="document.getElementById('y').submit(); return false;"><span class="option-text">Mathematics</span></a></form>
+                    </li>
+                    <li class="option"><form id="z" method='post' action='books-section.php'><input type='hidden' name='search' value='physics'>
+                        <a href="javascript:{}" onclick="document.getElementById('z').submit(); return false;"><span class="option-text">Physics</span></a></form>
+                    </li>
+                    <li class="option"><form id="w" method='post' action='books-section.php'><input type='hidden' name='search' value='chemistry'>
+                        <a href="javascript:{}" onclick="document.getElementById('w').submit(); return false;"><span class="option-text">Chemistry</span></a></form>
+                    </li>
+                    <li class="option"><form id="x" method='post' action='books-section.php'><input type='hidden' name='search' value='artificial intelligence'>
+                        <a href="javascript:{}" onclick="document.getElementById('x').submit(); return false;"><span class="option-text">Artificial Intelligence</span></a></form>
+                    </li>
+                    <li class="option"><form id="v" method='post' action='books-section.php'><input type='hidden' name='search' value='fundamentals'>
+                        <a href="javascript:{}" onclick="document.getElementById('v').submit(); return false;"><span class="option-text">CS Fundamentals</span></a></form>
+                    </li>
+                    <li class="option"><form id="u" method='post' action='books-section.php'><input type='hidden' name='search' value='data structures'>
+                        <a href="javascript:{}" onclick="document.getElementById('u').submit(); return false;"><span class="option-text">Data Structures & Algorithm</span></a></form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="logIn">
+                <a href="login.php">Log In</a>
+            </div>
+            <div class="signUp border">
+                <a href="signUp.php">Sign Up</a>
+            </div>
+        </div>
+
+        <!-- </div> -->
+
+    </div>
+    <div class="panel">
+    <div class="search-select">
+        <form method='post' action='books-section.php' id='searchbar' class="formexample" style="margin-bottom: 10px;border-radius:5px;flex;height:25px;width:400px">
+        <input placeholder="  Search Books" name="search" type="text" style="height:120%;border-top-left-radius: 5px ;border-bottom-left-radius: 5px;border-top-right-radius: 0px ;border-bottom-right-radius: 0px">
+        <button type='submit' name='submit' form='searchbar' style="height:134%;border-top-right-radius: 5px ;border-bottom-right-radius: 5px;border-top-left-radius: 0px;border-bottom-left-radius: 0px"><i class="fa fa-search"></i></button>
+        
+        </form>
+
+        </div>
+</header>
+<!-- Header Ends -->
+</body>
+</html>
